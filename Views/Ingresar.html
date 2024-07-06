@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ingreso al Sistema de Detección de Placas Clonadas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Content/Styles/IngresarStyles.css">
+</head>
+<body>   
+    <div class="container">
+        <div class="columna-color-derecha">
+            <img src="../Content/Images/fondoInicio.jpg" alt="Imagen Representativa" class="imagen-representativa">
+        </div>
+        <div class="columna-color-izquierda">
+            <div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <h2 class="titulo-cloned-alert mb-0 mt-3" style="font-size: 2rem;">CLONALERT</h2>
+                    <img src="../Content/Images/Logo.png" width="100" alt="Logo" class="mr-2">
+                </div>
+                
+                <div class="Formulario-cuerpo">
+                    <h4 class="fw-bold py-3 text-center">INGRESO AL SISTEMA DE DETECCION DE PLACAS CLONADAS</h4>
+                    <form id="formulario" action="javascript:void(0);">
+                        <div class="mb-4 d-flex align-items-start position-relative">
+                            <div>
+                                <img src="../Content/Images/carne-de-identidad.png" alt="Icono de dni" width="35" class="me-2 icon-separator">
+                            </div>
+                            <div class="flex-grow-1">
+                                <input type="text" class="form-control" id="dni" name="dni" placeholder="INGRESE EL DNI" maxlength="8">
+                                <small id="error-dni" class="form-text text-muted">Debe contener 8 dígitos</small>
+                            </div>
+                        </div>                                     
+                        <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace a JavaScript de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.js"></script>
+    <script src="../Content/JS/IngresarScripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wallpoet&display=swap');
+
+body {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.Encabezado {
+    background-color: #e8e8e8;
+    padding: 10px;
+    width: 100%;
+}
+
+.Formulario-cuerpo {
+    
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 70px; /* Espacio entre el encabezado y el formulario */
+    box-shadow: 0 0 10px 5px;
+}
+
+.salir-link {
+    text-decoration: none; /* Evitar subrayado del enlace */
+    color: #4b6cb7; /* Color personalizado */
+}
+
+.salir-link:hover { /* Cambio de color al pasar el cursor sobre el enlace */
+    color: #545252;
+    text-decoration: none;
+}
+
+.salir-texto {
+    font-size: 1.2rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.salir-icono {
+    font-size: 1.5rem; /* Tamaño de fuente del icono */
+}
+.form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.text-field {
+    flex: 1;
+}
+
+#registroBtn {
+    background-color: #4b6cb7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#registroBtn:hover {
+    background-color: #182848;
+}
+.btn-container {
+    margin-top: 20px;
+
+}
+
+.btn-separator {
+    margin-right: 300px; 
+}
+
+/* Diseño de imput */
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+}
+
+.inputGroup input:focus + label,
+.inputGroup input:not(:placeholder-shown) + label {
+    transform: translateY(-100%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #e8e8e8;
+}
+
+.inputGroup input:focus {
+    border-color: rgb(150, 150, 200);
+}
+
+.btn-container .btn-separator {
+    margin-right: 20px;
+}
+.inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+}
+
+  /* Espaciado adicional para los botones */
+.btn-container .btn-separator {
+    margin-right: 20px;
+}

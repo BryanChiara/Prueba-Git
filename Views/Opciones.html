@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Proceso</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Content/Styles/IngresarStyles.css">
+    <link rel="stylesheet" href="../Content/Styles/OpcionesStyles.css"> <!-- Hoja de estilos personalizada -->
+</head>
+<body>   
+    <div class="container-fluid">
+        <!-- Encabezado con el logo -->
+        <div class="row align-items-center justify-content-between">
+            <div class="Encabezado d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="../Content/Images/Logo.png" width="100" alt="Logo" class="mr-2">
+                    <h2 class="titulo-cloned-alert mb-0 mt-3" style="font-size: 2rem;">CLONALERT</h2>
+                </div>
+                <!-- Enlace para salir -->
+                <div class="salir-container">
+                    <a href="Ingresar.html" class="salir-link d-flex align-items-center">
+                        <span class="salir-texto mr-2">Salir</span>
+                        <!-- Icono para salir -->
+                        <i class="bi bi-box-arrow-right salir-icono"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Formulario con las opciones -->
+        <div class="row justify-content-center"> <!-- Cambio de clase para centrar el contenido -->
+            <div class="Formulario-cuerpo col-md-6"> <!-- Ajuste del tamaño del formulario y centrado -->
+                <h4 class="fw-bold py-3 text-center">SELECCIONA PROCESO</h4>
+                <div class="col-12 form-container text-center">
+                    <div class="btn-container">
+                        <a href="DatosVehiculo.html" class="btn btn-option d-flex flex-column align-items-center justify-content-center">
+                            <img src="../Content/Images/reportar.png" alt="Denuncia Icon">
+                            <span>Registrar Denuncia</span>
+                        </a>
+                        <a href="Seguimiento.html" class="btn btn-option d-flex flex-column align-items-center justify-content-center">
+                            <img src="../Content/Images/buscar.png" alt="Seguimiento Icon">
+                            <span>Seguimiento de Denuncia</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace a JavaScript de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.js"></script>
+</body>
+</html>

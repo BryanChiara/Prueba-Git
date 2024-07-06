@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wallpoet&display=swap');
+
+body {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.Encabezado {
+    background-color: #ECE9E6;
+    padding: 10px;
+    width: 100%;
+}
+
+.Formulario-cuerpo {
+    background-color: #ECE9E6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 70px; /* Espacio entre el encabezado y el formulario */
+    box-shadow: 0 0 10px 5px;
+}
+
+.salir-link {
+    text-decoration: none; /* Evitar subrayado del enlace */
+    color: #4b6cb7; /* Color personalizado */
+}
+
+.salir-link:hover { /* Cambio de color al pasar el cursor sobre el enlace */
+    color: #545252;
+    text-decoration: none;
+}
+
+.salir-texto {
+    font-size: 1.2rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.salir-icono {
+    font-size: 1.5rem; /* Tamaño de fuente del icono */
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-option {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: #c8c8c8;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 18px;
+}
+
+.btn-option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.btn-option:hover {
+    background-color: #adadad;
+    box-shadow: 5px 5px 13px;
+}
